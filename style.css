@@ -1,0 +1,31 @@
+.menu-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav{
+    margin-top: 40px;
+}
+.m{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    ;
+}
+.m a{
+    text-decoration: none;
+    color: black;
+}
+.m ul{
+
+}
+.m li,.fas {
+    padding-right: 50px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.tagline{
+    margin-top: 50px;
+    font-size: xx-large;
+    font-weight: bolder;   
+}
