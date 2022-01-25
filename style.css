@@ -76,11 +76,9 @@ body{
 }
 
 .container-grid{
-    margin: 20px;
-    margin-left: 50px;
-    width: 329px;
-    height: 476px;
-    background-color: rgb(184, 184, 184);
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(236, 233, 233);
 }
 .container-grid .fa-star{
 margin: 0;
@@ -95,5 +93,24 @@ color: gray;
     color: gray;
     font-weight: bold;
     font-size: 10px;
+}
+.container-grid h1{
+    font-weight: 300;
+}
+.container-grid h1,p,a{
+margin: 0%;
+padding: 0%;
+margin-top: 9px;
+text-decoration: none;
+color: black;
+}
+.PRICE-TAG{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+
 }
 /* colletion section ends here */
