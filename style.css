@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: white;
 }
 /* menu section starts */
 .menu-container{
@@ -76,6 +77,23 @@ body{
 
 .container-grid{
     margin: 20px;
+    margin-left: 50px;
+    width: 329px;
+    height: 476px;
+    background-color: rgb(184, 184, 184);
 }
+.container-grid .fa-star{
+margin: 0;
+padding: 0%;
+color: #FB8200;
+font-size:20px;}
 
+.fa-star.no-f {
+color: gray;
+}
+.item-info{
+    color: gray;
+    font-weight: bold;
+    font-size: 10px;
+}
 /* colletion section ends here */
