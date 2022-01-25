@@ -174,7 +174,7 @@ footer p{
     div#img-mac  {order: 1;}
     div#class-m   {order: 2;}
 }
-@media screen and (max-width:900px) and (min-width: 700px){
+@media screen and (max-width:1400px) and (min-width: 700px){
     .container-coll {
         display: flex;
         /* margin-left: 400px; */
@@ -186,8 +186,8 @@ footer p{
     .m{
         display: none;
     }
-    .tagline{
-        ali
+    .H-tagline{
+        margin-left: 70px;
     }
     .menu-container {
         display: flex;
