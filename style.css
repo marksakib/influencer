@@ -113,8 +113,10 @@ color: black;
     margin-bottom: 0px;
     padding-bottom: 20px;
 }
+/* colletion section ends here */
 
 
+/* footer area starts */
 footer{
     background-color: #0A0826;
     width:100%;
@@ -138,4 +140,4 @@ footer p{
     flex-wrap: wrap;
     align-items: center;
 }
-/* colletion section ends here */
+/* footer area end */
