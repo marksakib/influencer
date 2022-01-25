@@ -38,6 +38,9 @@ body{
 
 
 /* hero section starts here */
+.hero h1{
+    color: black;
+}
 .hero{
     display: flex;
     justify-content: center;
@@ -141,3 +144,34 @@ footer p{
     align-items: center;
 }
 /* footer area end */
+
+@media only screen and (max-width: 600px){
+    .nav{
+        display: none;
+    }
+    .hero {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: space-around;
+    }  
+.hero h1{
+    color: black;
+}
+    #img-mac{
+        width: 95%;
+    }
+
+    .btn-hero{
+        margin-left:25%;
+    }
+    .container-coll {
+    margin-left:0px; 
+    margin-right:0px;}
+
+    div#img-mac  {order: 1;}
+    div#class-m   {order: 2;}
+}
