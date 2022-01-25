@@ -67,6 +67,9 @@ body{
 
 
 /* colletion section starts here */
+.h1-mac{
+    text-align: center;
+}
 .container-coll{
     display: flex;
     margin-left: 400px;
@@ -112,5 +115,25 @@ color: black;
 }
 
 
+footer{
+    background-color: #0A0826;
+    width:100%;
+    height:250px;
+}
+footer p,h1{
+    color: white;
+}
+footer p{
+    padding-bottom: 10px;
+}
+.fab,.fa-brands{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 /* colletion section ends here */
