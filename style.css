@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: white;
 }
 /* menu section starts */
 .menu-container{
@@ -45,10 +46,10 @@ body{
     margin-top:100px ;
 }
 .hero-img{
-margin-right: 35px;
+
 }
 .H-tagline{
-margin-left: 110px;
+
 }
 .btn-hero{
     color: white;
@@ -66,21 +67,77 @@ margin-left: 110px;
 
 
 /* colletion section starts here */
-.mac-c{
-    margin-top:50px;
-    margin-bottom: 0%;
+.h1-mac{
     text-align: center;
 }
 .container-coll{
     display: flex;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 400px;
+    margin-right: 350px;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .container-grid{
-    margin: 20px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(236, 233, 233);
 }
+.container-grid .fa-star{
+margin: 0;
+padding: 0%;
+color: #FB8200;
+font-size:20px;}
 
+.fa-star.no-f {
+color: gray;
+}
+.item-info{
+    color: gray;
+    font-weight: bold;
+    font-size: 10px;
+}
+.container-grid h1{
+    font-weight: 300;
+}
+.container-grid h1,p,a{
+margin: 0%;
+padding: 0%;
+margin-top: 9px;
+text-decoration: none;
+color: black;
+}
+.PRICE-TAG{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
 /* colletion section ends here */
+
+
+/* footer area starts */
+footer{
+    background-color: #0A0826;
+    width:100%;
+    height:250px;
+}
+footer p,h1{
+    color: white;
+}
+footer p{
+    padding-bottom: 10px;
+}
+.fab,.fa-brands{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-right:10px;
+    margin-top: 10px;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* footer area end */
