@@ -129,6 +129,8 @@ footer p{
 .fab,.fa-brands{
     color: rgb(255, 255, 255);
     font-size: 50px;
+    padding-right:10px;
+    margin-top: 10px;
 }
 .footer-info{
     display: flex;
