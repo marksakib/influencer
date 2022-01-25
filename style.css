@@ -79,6 +79,7 @@ body{
     margin-right: 350px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .container-grid{
@@ -145,7 +146,7 @@ footer p{
 }
 /* footer area end */
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
     .nav{
         display: none;
     }
@@ -174,4 +175,20 @@ footer p{
 
     div#img-mac  {order: 1;}
     div#class-m   {order: 2;}
+}
+@media screen and (max-width:1100px) and (min-width: 700px){
+    .container-coll{
+    margin: 0px;
+    }
+    .m{
+        display: none;
+    }
+    .tagline{
+        ali
+    }
+    .menu-container {
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        flex-direction: column;
 }
